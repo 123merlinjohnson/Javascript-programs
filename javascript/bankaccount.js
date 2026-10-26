@@ -33,7 +33,7 @@ class BankAccount
             this.#balance -=withdramount; 
         }
         else{
-            console.log("invalid deposit amount");
+            console.log("invalid withdrawal amount");
 
         }
     }
